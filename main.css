@@ -34,7 +34,7 @@ body {
 .slogan {
     width: calc(100vw - (100vw - 100%));
     height: 10vh;
-    font-size: 1.5vw; /*16pt*/
+    font-size: 1.5vw;
     background-color: rgba(124, 70, 230, 0);
     color: #fff;
 }
@@ -68,9 +68,10 @@ body {
     transform: translate(-50%, -50%);
     padding: 3vw;
     background-color: rgba(59, 59, 59, 0.0);
-    font-size: 3vw;
+    font-size: 2.7vw;
     font-weight: bold;
     color: #fff;
+    width: 70vw;
 }
 
 
@@ -102,11 +103,13 @@ body {
     background-color: rgba(59, 59, 59, 0.80);
     font-size: 1.5vw;
     color: #fff;
+    width: 55vw;
 }
 
 .partText {
     width: calc(100vw - (100vw - 100%));
     text-align: center;
+    padding-bottom: 4vw;
 }
 
 #one {
@@ -116,7 +119,7 @@ body {
 
 #one > div {
     display: inline-block;
-    width: 40%;
+    width: 50%;
     margin: 6vw;
     height: 8vw;
 }
